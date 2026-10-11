@@ -45,34 +45,5 @@ Here,
 are model parameters. The notebook assigns different parameter values to
 each scenario to represent the baseline and intervention assumptions.
 
-### Initial Conditions
 
-  Variable      Initial value
-  ----------- ---------------
-  (S(0))                  760
-  (U(0))                  200
-  (P(0))                   30
-  (A(0))                   10
-  **Total**         **1,000**
-
-### Scenarios
-
-The notebook compares these four parameter sets:
-
-  ------------------------------------------------------------------------------------------------------------------------------------
-  Scenario       (`\alpha`{=tex})   (`\beta`{=tex})   (`\omega`{=tex})   (`\epsilon`{=tex})   (`\mu`{=tex})     \(c\)   (`\tau`{=tex})
-  ------------ ------------------ ----------------- ------------------ -------------------- --------------- --------- ----------------
-  Baseline                    0.5              0.15                0.2                0.784             0.2        10                0
-
-  Testing &                  0.75             0.075                  0                0.784             0.2         5              0.4
-  Education                                                                                                          
-
-  Antivirals                 0.75              0.15               0.02                0.784            0.02        10              0.4
-
-  Needle                     0.75              0.15                  0                0.784             0.2        10              0.2
-  Exchange                                                                                                            
-  ------------------------------------------------------------------------------------------------------------------------------------
-
-These are the parameter values encoded in the notebook; the
-interpretation depends on the model assumptions used for the project.
 

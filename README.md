@@ -1,4 +1,4 @@
-Mathematica Notebook for Math 460: Mathematical Modeling Project 1
+Math 460: Mathematical Modeling - Project 1
 
 This repository contains a Wolfram Mathematica notebook for studying a
 four-compartment population model and comparing a baseline scenario with
@@ -6,13 +6,13 @@ three intervention scenarios.
 
 ## Overview
 
-The notebook defines a system of ordinary differential equations (ODEs)
+We created a system of  4 ordinary differential equations (ODEs)
 for four state variables:
 
--   (S(t))
--   (U(t))
--   (P(t))
--   (A(t))
+-   S(t): Susceptible Population
+-   U(t): Unconsciously Infected Population Living with HIV
+-   P(t): Consciously Infected Population Living with HIV
+-   A(t): Infected Population Living with AIDS
 
 The model tracks how the population is distributed among these
 compartments over time. The total population is constrained to be 1,000,
@@ -39,11 +39,4 @@ A' &= (1-\epsilon)\alpha U+\mu P.
 \end{aligned}
 ```
 \]
-
-Here,
-(`\alpha`{=tex},`\beta`{=tex},`\omega`{=tex},`\epsilon`{=tex},`\mu`{=tex},c,`\tau`{=tex})
-are model parameters. The notebook assigns different parameter values to
-each scenario to represent the baseline and intervention assumptions.
-
-
 

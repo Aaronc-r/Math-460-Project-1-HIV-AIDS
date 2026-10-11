@@ -24,11 +24,6 @@ The notebook compares a baseline model with three intervention scenarios
 labeled **Testing & Education**, **Antivirals**, and **Needle
 Exchange**.
 
-## Repository Contents
-
--   `Math460_Project1_Model.nb` --- Mathematica notebook containing the
-    model definitions, parameter sets, equilibrium analysis, stability
-    classification, and numerical simulations.
 
 ## Model
 
